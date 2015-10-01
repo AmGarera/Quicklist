@@ -1,0 +1,36 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <group android:checkableBehavior="single"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <item
+            android:id="@+id/navigation_subheader"
+            android:title="@string/navigation_subheader">
+            <menu>
+                <item
+                    android:id="@+id/navigation_sub_item_1"
+                    android:icon="@drawable/ic_games_24dp"
+                    android:title="@string/navigation_sub_item_1"/>
+                <item
+                    android:id="@+id/navigation_sub_item_2"
+                    android:icon="@drawable/ic_games_24dp"
+                    android:title="@string/navigation_sub_item_2"/>
+            </menu>
+        </item>
+    </group>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header_nav__drawer"
+        app:menu="@menu/menu_main" />
+
+</android.support.v4.widget.DrawerLayout>

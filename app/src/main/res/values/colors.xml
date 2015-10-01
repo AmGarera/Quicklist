@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#40ffff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bkg_card">#40ffff</color>
+    <color name="accent_material_light_1">#40ffff</color>
+    <color name="statusBarColor">#40ffff</color>
+</resources>
